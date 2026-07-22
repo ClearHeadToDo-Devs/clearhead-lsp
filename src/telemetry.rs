@@ -11,8 +11,7 @@
 // Re-export core telemetry types used by protocol handlers.
 pub use clearhead_core::telemetry::ndjson::NdjsonEmitter;
 pub use clearhead_core::telemetry::{
-    TelemetryEmitter, TelemetryEvent, TelemetryRecord, Tool, event_from_field_change,
-    event_from_state_change,
+    TelemetryEmitter, TelemetryEvent, Tool, event_from_field_change, event_from_state_change,
 };
 
 /// Build and emit a record from parts via the LSP's NDJSON emitter.
